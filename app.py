@@ -7,8 +7,8 @@ import random
 import json
 import requests
 
-option_a = os.getenv('OPTION_A', "RedHat")
-option_b = os.getenv('OPTION_B', "Microsoft")
+option_a = os.getenv('OPTION_A', "Teams")
+option_b = os.getenv('OPTION_B', "Webex")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
