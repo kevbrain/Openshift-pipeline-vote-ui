@@ -7,8 +7,8 @@ import random
 import json
 import requests
 
-option_a = os.getenv('OPTION_A', "BIL")
-option_b = os.getenv('OPTION_B', "ING")
+option_a = os.getenv('OPTION_A', "kubernetes")
+option_b = os.getenv('OPTION_B', "openshift")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
